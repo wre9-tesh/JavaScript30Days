@@ -36,3 +36,10 @@ tomEl.addEventListener("click",function(){
 tinkEl.addEventListener("click",function(){
     new Audio('./sounds/tink.wav').play();
 })
+
+document.addEventListener('keydown',function (e){
+    if(e.keyCode == 65){
+        document.getElementById("cat").play();
+    }
+});
+aa

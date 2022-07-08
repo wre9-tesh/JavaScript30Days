@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+body{
+    background: url("./pawel-czerwinski-1JLIC7bnoZA-unsplash.jpg") no-repeat center/cover ;
+    backdrop-filter: blur(2px);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.clock{
+    width: 25rem;
+    height: 25rem;
+    border: 20px double #000000;
+    border-radius: 50%;
+    box-shadow: 0 0 7px 7px #ffed38,
+            inset 0 0 7px 7px #490893;
+}
+
+.clock_face{
+    position: relative;
+}
+
+.hand{
+    width:10.5rem;
+    height: 6px;
+
+    position: absolute;
+    top:12.5rem;
+    transform:  rotate(90deg);
+    transform-origin: 100%;
+}
+#hour-hand {
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 2px 2px greenyellow;
+    border-radius: 100% 0 0 100%;
+}
+#min-hand{
+    border: 2px solid red;
+    box-shadow: 0 0 2px 2px orangered;
+    border-radius: 100% 0 0 100%;
+}
+#sec-hand{
+    border: 2px solid deepskyblue;
+    box-shadow: 0 0 2px 2px lightskyblue;
+    border-radius: 100% 0 0 100%;
+}
+
+
+.cap{
+    width: 1rem;
+    height:1rem;
+    background: black;
+    position: absolute;
+    top:12rem;
+    left:12rem;
+    border: 6px double #f5e52e;
+    box-shadow: 0 0 1px 1px #f5e52e;
+    border-radius:50%;
+}
+

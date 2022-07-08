@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poiret+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blur:0px;
+    --space:10px;
+    --color: #FFFB46;
+}
+
+
+body{
+    text-align: center;
+    background: #69140E;
+}
+
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:3rem;
+    color:#D58936;
+}
+
+label{
+    font-family: 'Poiret One', cursive;
+    font-weight:bolder ;
+    font-size:2rem;
+    color: #F3B700;
+}
+.Grayscale ,.spacing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+
+}
+.slider{
+    -webkit-appearance: none;
+    appearance: none;
+    width:70%;
+    height: 5px;
+    background: #FFFB46;
+    border-radius: 10px;
+
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+}
+
+label[for="color"]{
+    margin-bottom: 1rem;
+}
+
+
+.head-text{
+    color:var(--color) ;
+}
+
+.values{
+    display: flex;
+    gap:1rem;
+    justify-content: space-around;
+    margin:2rem;
+}
+
+img{
+    border:var(--space) solid var(--color);
+    filter:grayscale(var(--blur));
+}
