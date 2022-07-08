@@ -7,7 +7,7 @@
 }
 
 :root{
-    --blur:0px;
+    --gray:0px;
     --space:10px;
     --color: #FFFB46;
 }
@@ -15,20 +15,20 @@
 
 body{
     text-align: center;
-    background: #69140E;
+    background: #151152;
 }
 
 h1{
     font-family: 'Archivo Black', sans-serif;
     font-size:3rem;
-    color:#D58936;
+    color:#C813B3;
 }
 
 label{
     font-family: 'Poiret One', cursive;
     font-weight:bolder ;
     font-size:2rem;
-    color: #F3B700;
+    color: #F52776;
 }
 .Grayscale ,.spacing{
     display: flex;
@@ -71,5 +71,5 @@ label[for="color"]{
 
 img{
     border:var(--space) solid var(--color);
-    filter:grayscale(var(--blur));
+    filter:grayscale(var(--gray));
 }
