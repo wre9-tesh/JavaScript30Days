@@ -12,12 +12,10 @@ function setSec (){
     const minDegree = ((min/60)*360)+90;
     const hourDegree = ((hour/12)*360)+90;
 
-   secEl.style.transform = `translateX(1.75rem) rotate(${secDegree}deg)`;
-   hourEl.style.transform = `translateX(1.75rem) rotate(${hourDegree}deg)`;
-   minEl.style.transform  = `translateX(1.75rem) rotate(${minDegree}deg)`;
+   secEl.style.transform = ` translateX(1.75rem) rotate(${secDegree}deg)`;
+   hourEl.style.transform = `translateX(1.75rem)  rotate(${hourDegree}deg)`;
+   minEl.style.transform  = `translateX(1.75rem)  rotate(${minDegree}deg)`;
 
 
 }
-
-
 setInterval(setSec,1000);

@@ -38,16 +38,21 @@ body{
     border: 2px solid greenyellow;
     box-shadow: 0 0 2px 2px greenyellow;
     border-radius: 100% 0 0 100%;
+    transform: translateX(1.75rem);
 }
 #min-hand{
     border: 2px solid red;
     box-shadow: 0 0 2px 2px orangered;
     border-radius: 100% 0 0 100%;
+    transform: translateX(1.75rem);
+
 }
 #sec-hand{
     border: 2px solid deepskyblue;
     box-shadow: 0 0 2px 2px lightskyblue;
     border-radius: 100% 0 0 100%;
+    transform: translateX(1.75rem);
+
 }
 
 
