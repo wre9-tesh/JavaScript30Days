@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
-
+    color: #171313;
 
 }
 
@@ -46,23 +46,26 @@
 }
 
 .panel p:nth-child(2) {
-    font-size: 1.7rem;
+    font-size: 2rem;
+    color: #efefef;
+    text-shadow: black 0 0 10px;
 }
 
 .panel1{
-    background-color: #26547C;
+    background: linear-gradient(59deg, rgba(38,84,112,0.1) 0%, rgba(241,255,255,0.1) 100%), url("./assets/blue.jpg") no-repeat center / cover;
+
 }
 .panel2{
-    background-color: #EF476F;
+    background: linear-gradient(59deg, rgba(255, 48, 100, 0.5) 0%, rgba(252, 137, 167, 0.5) 100%),url("./assets/red.jpg") no-repeat center / cover;
 }
 .panel3{
-    background-color: #FFD166;
+    background: linear-gradient(59deg, rgba(255,209,102,0.2) 0%, rgba(255,179,1,0.2) 100%),url("./assets/yellow 4.jpg") no-repeat center / cover;
 }
 .panel4{
-    background-color: #06D6A0;
+    background: linear-gradient(59deg, rgba(178,244,227,0.2) 0%, rgba(5,214,160,0.2) 100%),url("./assets/green.jpg") no-repeat center / cover;
 }
 .panel5{
-    background-color: #91785D;
+    background: linear-gradient(59deg, rgba(176,146,113,0.3) 0%, rgba(215,179,141,0.2) 100%),url("./assets/brown.jpg") no-repeat center / cover;
 }
 
 
@@ -74,5 +77,6 @@
 .open{
     flex: 5;
     transition:flex cubic-bezier(0.61,-0.19, 0.7,-0.11) 0.5s;
+    font-size: 1.7rem;
 
 }
