@@ -37,9 +37,32 @@ tinkEl.addEventListener("click",function(){
     new Audio('./sounds/tink.wav').play();
 })
 
-document.addEventListener('keydown',function (e){
-    if(e.keyCode == 65){
-        document.getElementById("cat").play();
+window.addEventListener("keydown",(event) =>{
+    if(event.key === 'a'){
+        new Audio('./sounds/clap.wav').play();
+    }
+    if(event.key === 's'){
+        new Audio('./sounds/hihat.wav').play();
+    }
+    if(event.key === 'd'){
+        new Audio('./sounds/kick.wav').play();
+    }
+    if(event.key === 'f'){
+        new Audio('./sounds/openhat.wav').play();
+    }
+    if(event.key === 'g'){
+        new Audio('./sounds/boom.wav').play();
+    }
+    if(event.key === 'h'){
+        new Audio('./sounds/ride.wav').play();
+    }
+    if(event.key === 'j'){
+        new Audio('./sounds/snare.wav').play();
+    }
+    if(event.key === 'k'){
+        new Audio('./sounds/tom.wav').play();
+    }
+    if(event.key === 'l'){
+        new Audio('./sounds/tink.wav').play();
     }
 });
-aa
